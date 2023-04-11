@@ -1,0 +1,30 @@
+1.    git clone https://github.com/dronekit/dronekit-python.git
+      ls-->examples.......
+      
+2.    from dronekit import connect, VehicleMode
+import time
+
+# Connect to the vehicle
+vehicle = connect('udp:127.0.0.1:14550')
+
+# Arm and take off
+vehicle.mode = VehicleMode("GUIDED")
+vehicle.armed = True
+vehicle.simple_takeoff(10) # Take off to 10 meters
+
+# Wait for the vehicle to reach the target altitude
+while True:
+    print("Altitude: ", vehicle.location.global_relative_frame.alt)
+    if vehicle.location.global_relative_frame.alt >= 9.5:
+        print("Target altitude reached")
+        break
+    time.sleep(1)
+
+# Set the vehicle to land mode and disarm
+vehicle.mode = VehicleMode("LAND")
+time.sleep(5)
+vehicle.armed = False
+
+# Close the connection
+vehicle.close()
+      
