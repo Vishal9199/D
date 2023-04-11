@@ -1,0 +1,24 @@
+Here are the assembly steps for a S500 drone kit and Pixhawk flight controller in a table format:
+Step	Task	Components :
+
+1	Mount the landing gear	Landing gear set, screws, and nuts
+2	Attach the arms to the center plate	4 arms, center plate, screws, and nuts
+3	Mount the motors to the arms	4 motors, screws, and nuts
+4	Install the propellers	4 propellers, 4 propeller adapters
+5	Attach the ESCs to the arms	4 ESCs, heat shrink tubing, zip ties
+6	Connect the ESCs to the motors	Motor wires, ESC wires
+7	Install the power distribution board	Power distribution board, screws, and nuts
+8	Connect the ESCs to the power distribution board	Power distribution board wires, ESC wires
+9	Mount the Pixhawk flight controller	Pixhawk, anti-vibration mount, screws
+10	Install the GPS module on top of the Pixhawk	GPS module, screws
+11	Connect the GPS module to the Pixhawk	GPS module cable
+12	Install the telemetry radio on the Pixhawk	Telemetry radio, screws
+13	Connect the telemetry radio to the Pixhawk	Telemetry radio cable
+14	Install the battery holder on the bottom plate	Battery holder, screws, and nuts
+15	Connect the battery holder to the power distribution board	Power distribution board cable
+16	Connect the Pixhawk to the power distribution board	Power distribution board cable, Pixhawk cable
+17	Install the receiver	Receiver, receiver cable
+18	Connect the receiver to the Pixhawk	Receiver cable, Pixhawk cable
+19	Attach the camera and/or gimbal	Camera and/or gimbal, screws, and nuts
+20	Balance the drone	Check the balance of the drone and make adjustments as necessary
+21	Calibrate the Pixhawk and ESCs	Follow the instructions provided by the manufacturer to calibrate the flight controller and ESCs
